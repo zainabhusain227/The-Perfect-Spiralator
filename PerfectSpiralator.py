@@ -19,7 +19,7 @@ import os
 #from pathlib import Path
 dir_path = os.path.dirname(os.path.realpath(__file__))
 vid=Vid()
-vid.folder_path= os.path.join(dir_path,"sample_video_4_8_1")
+vid.folder_path= os.path.join(dir_path,"output")
 
 extract_coordinates(vid)
 #release_time(vid)
